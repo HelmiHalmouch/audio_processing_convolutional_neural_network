@@ -19,8 +19,8 @@ The 10 classes are : <br/>
 
 Python3.5 <br/>
 Keras <br/>
-librosa 
-pandas 
+librosa <br/>
+pandas <br/>
 
 # Used CNN architecture 
 ![cnn_architecture](https://user-images.githubusercontent.com/40611217/50377761-82d30400-0623-11e9-9e96-abfaf0b2532e.png)
