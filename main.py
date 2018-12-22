@@ -119,4 +119,8 @@ score =model.evaluate(x=X_test,y=y_test)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
 
+# save the model 
+
+model.save('my_trained_model.h5') 
+
 print('Processing finished !!!')
