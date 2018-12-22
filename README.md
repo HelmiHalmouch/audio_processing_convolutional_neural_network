@@ -3,3 +3,8 @@ In this project, we apply the Convolution Neural Networks (CNN) for audio proces
 
 # Requirements 
 Python3.5 <br\>
+Keras <br\>
+
+# Run the code 
+Please use this command : python main.py 
+
