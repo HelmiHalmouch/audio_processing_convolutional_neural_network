@@ -1,2 +1,5 @@
-# Adio-Processing-CNN
-In this project, we apply the Convolution Neural Networks (CNN) for audio processing. We use the ConvNets method.
+# Audio-Processing-CNN
+In this project, we apply the Convolution Neural Networks (CNN) for audio processing. We use the ConvNets method. <br\>
+
+# Requirements 
+Python3.5 <br\>
