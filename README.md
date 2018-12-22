@@ -2,7 +2,7 @@
 In this project, we apply the Convolution Neural Networks (CNN) for audio processing. We use the ConvNets method. <br/>
 The dataset used in this code are : UrbanSound8k wchich can been dowload for this woeb site : 
 https://urbansounddataset.weebly.com/urbansound8k.html
-The 10 classes are : 
+The 10 classes are : <br/>
 					1- Children playing <br/>
 					2- Dog Barking <br/>
 					3- Jackhammer <br/>
