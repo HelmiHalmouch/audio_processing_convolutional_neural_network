@@ -28,7 +28,7 @@ data = pd.read_csv('datasets/UrbanSound8K/metadata/UrbanSound8K.csv')
 print(data.head(10)) # show a 5 sample of thedata file 
 
 #-----------------Test and applyed several command to show the datasets----------#
-""" Get the datset over 3 seconds long  """
+""" Get the dataset over 3 seconds long  """
 duration = [data['end']-data['start']>=3 ] # get the diration heigher than 3 S
 valid_data = data[['slice_file_name', 'fold' ,'classID', 'class']][ data['end']-data['start'] >= 3 ]
 print(valid_data.shape)
@@ -119,8 +119,13 @@ score =model.evaluate(x=X_test,y=y_test)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
 
-# save the model 
-
+# save the model as .h5
 model.save('my_trained_model.h5') 
+
+# save the model as json file 
+model_json = model.to_json()
+with open("output_trained_model.json","w") as json_file:
+	json_file.write(model_json)
+print("Saved model json to disk")
 
 print('Processing finished !!!')
