@@ -26,7 +26,7 @@ pandas <br/>
 ![cnn_architecture](https://user-images.githubusercontent.com/40611217/50377761-82d30400-0623-11e9-9e96-abfaf0b2532e.png)
 
 # Run the code 
-Please use this command : python main.py 
+python main.py 
 
 # Results
 Show the classifcation rate of an audio signal based on 10 classes (urbansound)
